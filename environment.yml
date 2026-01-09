@@ -1,0 +1,15 @@
+name: xeus-python-kernel
+channels:
+  - https://repo.prefix.dev/emscripten-forge
+  - https://repo.prefix.dev/conda-forge
+dependencies:
+  # JupyterLite xeus
+  - jupyterlite-core >=0.3.0,<0.5.0
+  - jupyterlite-xeus >=2.0.0,<3.0.0
+  
+  # Python kernel
+  - xeus-python >=0.15.0
+  
+  # Required packages for the test_tasks notebook
+  - pandas
+  - numpy
